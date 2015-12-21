@@ -1,0 +1,103 @@
+.clock {
+	background: url('../images/clock-circle.png') no-repeat center center;
+	clear: none;
+	float: left;
+	font-size: 0.1em;
+	height: 32px;
+	line-height: 0.1em;
+	position: relative;
+	width: 32px;
+	}
+.clock .h {
+	background: url('../images/clock-hour.png') no-repeat center center;
+	height: 32px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 32px;
+	}
+.clock .m {
+	background: url('../images/clock-minute.png') no-repeat center center;
+	height: 32px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 32px;
+	}
+.clock .h-1, .clock .m-5 {
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	transform: rotate(30deg);
+	}
+.clock .h-2, .clock .m-10 {
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+	-o-transform: rotate(60deg);
+	transform: rotate(60deg);
+	}
+.clock .h-3, .clock .m-15 {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	}
+.clock .h-4, .clock .m-20 {
+	-webkit-transform: rotate(120deg);
+	-moz-transform: rotate(120deg);
+	-ms-transform: rotate(120deg);
+	-o-transform: rotate(120deg);
+	transform: rotate(120deg);
+	}
+.clock .h-5, .clock .m-25 {
+	-webkit-transform: rotate(150deg);
+	-moz-transform: rotate(150deg);
+	-ms-transform: rotate(150deg);
+	-o-transform: rotate(150deg);
+	transform: rotate(150deg);
+	}
+.clock .h-6, .clock .m-30 {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+	}
+.clock .h-7, .clock .m-35 {
+	-webkit-transform: rotate(210deg);
+	-moz-transform: rotate(210deg);
+	-ms-transform: rotate(210deg);
+	-o-transform: rotate(210deg);
+	transform: rotate(210deg);
+	}
+.clock .h-8, .clock .m-40 {
+	-webkit-transform: rotate(240deg);
+	-moz-transform: rotate(240deg);
+	-ms-transform: rotate(240deg);
+	-o-transform: rotate(240deg);
+	transform: rotate(240deg);
+	}
+.clock .h-9, .clock .m-45 {
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	transform: rotate(270deg);
+	}
+.clock .h-10, .clock .m-50 {
+	-webkit-transform: rotate(300deg);
+	-moz-transform: rotate(300deg);
+	-ms-transform: rotate(300deg);
+	-o-transform: rotate(300deg);
+	transform: rotate(300deg);
+	}
+.clock .h-11, .clock .m-55 {
+	-webkit-transform: rotate(330deg);
+	-moz-transform: rotate(330deg);
+	-ms-transform: rotate(330deg);
+	-o-transform: rotate(330deg);
+	transform: rotate(330deg);
+	}

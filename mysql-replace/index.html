@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	
+	<title>Generate MySQL Replace Code</title>
+	
+	<!-- iOS options -->
+	<link rel="apple-touch-icon" href="../images/harmonicnw_logo_orangebg_144x144"/>
+	
+	<!-- OpenGraph tags -->
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="../images/harmonicnw_logo_orangebg_144x144" />
+	<meta property="og:description" content="" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:site_name" content="Harmonic Northwest" />
+	
+	<link rel="shortcut icon" type="image/png" href="../images/favicon_harmonicnw.png" />
+	
+	<link rel="stylesheet" media="screen" href="../css/style.css" /><!-- tools template styles -->
+	<link rel="stylesheet" media="screen" href="css/style.css" />
+	
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+
+<section class="intro">
+	<div class="wrapper">
+		<div class="wrapper2">
+			<h1>Generate MySQL Replace Code</h1>
+			<p>Use this tool to generate a line of MySQL to replace one string with another in a chosen field and table.</p>
+			
+			<div id="generator" class="box">
+				<div class="box2">
+					
+					<form id="replace">
+						<ul>
+							<li>
+								<label for="tableName">Table Name</label>
+								<input id="tableName" name="tableName" type="text" />
+							</li>
+							<li>
+								<label for="fieldName">Field Name</label>
+								<input id="fieldName" name="tableName" type="text" />
+							</li>
+							<li>
+								<label for="stringToFind">String to Find</label>
+								<input id="stringToFind" name="stringToFind" type="text" />
+							</li>
+							<li>
+								<label for="stringToReplace">String to Replace</label>
+								<input id="stringToReplace" name="stringToReplace" type="text" />
+							</li>
+							<li>
+								<input id="types" name="types" type="hidden" />
+								<input type="submit" value="Generate SQL" />
+							</li>
+						</ul>
+					</form>
+					
+					<br style="clear:both" />
+				</div>
+			</div>
+			
+			<code id="results" style="display:none"></code>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="wrapper">
+		<div class="wrapper2">
+			
+			<p>Created April 2014</p>
+			
+		</div>
+	</div>
+</footer>
+
+</div>
+
+</body>
+</html>

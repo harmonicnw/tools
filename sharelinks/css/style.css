@@ -1,0 +1,101 @@
+/* global rules */
+
+/* end global rules */
+
+
+
+label.error {
+	color: #d00;
+	}
+	
+.linkTypeSelect {
+	clear: none;
+	float: left;
+	width: auto;
+	}
+.linkTypeSelect li {	
+	background-position: left center;
+	background-size: 36px 36px;
+	background-repeat: no-repeat;
+	clear: none;
+	float: left;
+	font-size: 0.1em;
+	line-height: 0.1em;
+	list-style: none;
+	margin: 5px;
+	opacity: 0.5;
+	width: auto;
+	}
+.linkTypeSelect li.active {
+	opacity: 1;
+	}
+.linkTypeSelect li.active a img {
+	background: url(../images/icon-check.png) no-repeat right bottom;
+	background-size: 50%;
+	}
+.linkTypeSelect li.email {
+	background-image: url('../images/email.png');
+	}
+.linkTypeSelect li.facebook {
+	background-image: url('../images/facebook.png');
+	}
+.linkTypeSelect li.linkedin {
+	background-image: url('../images/linkedin.png');
+	}
+.linkTypeSelect li.twitter {
+	background-image: url('../images/twitter.png');
+	}
+.linkTypeSelectWrapper {
+	clear: both;
+	float: left;
+	margin-bottom: 2em;
+	width: 100%;
+	}
+.linkTypeSelectWrapper .label {
+	clear: left;
+	float: left;
+	font-weight: bold;
+	margin: 13px 1em 0 0;
+	width: auto;
+	}
+	
+.resultsTable {
+	clear: both;
+	float: left;
+	margin: 1em 0;
+	width: 100%;
+	}
+.resultsTable td.demo {
+	text-align: center;
+	width: 14.5%;
+	}
+.resultsTable td.link {
+	-ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word; /* Non standard for webkit */
+	-webkit-hyphens: auto;
+   	-moz-hyphens: auto;
+   	hyphens: auto;
+	
+	word-wrap: break-word;
+	width: 77%;
+	}
+.resultsTable td.service {
+	background-position: center center;
+	background-size: 36px 36px;
+	background-repeat: no-repeat;
+	min-height: 36px;
+	width: 8%;
+	}
+.resultsTable tr.email td.service {
+	background-image: url('../images/email.png');
+	}
+.resultsTable tr.facebook td.service {
+	background-image: url('../images/facebook.png');
+	}
+.resultsTable tr.linkedin td.service {
+	background-image: url('../images/linkedin.png');
+	}
+.resultsTable tr.twitter td.service {
+	background-image: url('../images/twitter.png');
+	}
